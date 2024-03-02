@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  swoole-gpt-proxy:
+    image: phpswoole/swoole:php8.1
+    #    restart: always
+    volumes:
+      - ./:/var/www
+    ports:
+      - '82:9501'
