@@ -1,0 +1,26 @@
+{
+    "name": "sidalex/candidate_vacancy_estimation_gpt",
+    "description": "send request to gpt from make estimation how well does the candidate fit the vacancy",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sidalex\\CandidateVacancyEstimationGpt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SidAlex",
+            "email": "palach.orl@mail.ru"
+        }
+    ],
+    "require": {
+        "yurunsoft/guzzle-swoole": "^2.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "yurunsoft/composer-include-files": true,
+            "yurunsoft/guzzle-swoole": true
+        }
+    }
+}
