@@ -1,0 +1,7 @@
+{
+  "urlGpt": "http://host",
+  "auth": {
+    "user": "user",
+    "password": "password"
+  }
+}
